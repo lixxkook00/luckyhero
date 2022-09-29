@@ -1,7 +1,7 @@
 import './App.scss';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import TheBestBackgroundEver from './pages/TheBestBackgroundEver';
+import TheBestBackgroundEver from './components/TheBestBackgroundEver';
 import Router from './routers/router';
 
 function App() {
@@ -20,9 +20,9 @@ function App() {
         
         </div>
       
+        <Footer />  
       </div>
 
-      <Footer />
       
     </div>
   );
