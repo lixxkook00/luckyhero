@@ -1,0 +1,325 @@
+.box-crypto {
+  -webkit-backdrop-filter: blur(17px);
+  backdrop-filter: blur(17px);
+  border-radius: 2px;
+  background: radial-gradient(
+      89.22% 239.7% at 93.58% 13.91%,
+      hsla(0, 0%, 100%, 0.1) 0,
+      hsla(0, 0%, 100%, 0.01) 100%
+    ),
+    url(../../../public/images/media-box.d10183d8.png);
+  max-width: 100%;
+  min-height: 250px;
+  background-size: 100% 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.box-crypto-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.box-crypto-top .crypto-rate {
+  color: #f0f0f0;
+  font-size: 18px;
+  padding-right: 5px;
+}
+.box-crypto-top .crypto-symbol {
+  color: aqua;
+  font-size: 18px;
+}
+.box-crypto-top .crypto-img {
+  flex: 0 0 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 150%;
+  color: #fff;
+  font-size: 18px;
+}
+.box-crypto-top .crypto-img img {
+  height: 35px;
+  width: auto;
+  margin-right: 5px;
+}
+.box-crypto-top .crypto-img span {
+  display: block;
+}
+.box-crypto-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding-bottom: 15px;
+  border-bottom: 0.7px solid #5c5a62;
+}
+.box-crypto-center .crypto-price {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+.box-crypto-center .crypto-symbol {
+  color: aqua;
+  text-align: center;
+}
+.box-crypto-center .crypto-img {
+  flex: 0 0 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  line-height: 150%;
+  font-size: 18px;
+}
+.box-crypto-center .crypto-img img {
+  height: 35px;
+  width: auto;
+  margin-right: 5px;
+}
+.box-crypto-center .crypto-img span {
+  display: block;
+}
+.box-crypto-bot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: width 3s ease-in-out;
+  margin-top: 20px;
+}
+@media (max-width: 1199px) {
+  .box-crypto-bot {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 991px) {
+  .box-crypto-bot {
+    flex-wrap: nowrap;
+  }
+}
+@media (max-width: 767px) {
+  .box-crypto-bot {
+    flex-wrap: wrap;
+  }
+}
+.box-crypto-bot button {
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 1s ease-in-out;
+}
+@media (max-width: 1199px) {
+  .box-crypto-bot button {
+    width: 48%;
+    justify-content: start;
+  }
+}
+@media (max-width: 414px) {
+  .box-crypto-bot button {
+    padding: 5px 0;
+  }
+}
+.box-crypto-bot button img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+@media (max-width: 414px) {
+  .box-crypto-bot button img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+}
+.box-crypto-bot button .text {
+  display: inline-block;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: aqua;
+}
+@media (max-width: 414px) {
+  .box-crypto-bot button .text {
+    font-size: 14px;
+  }
+}
+.box-crypto-bot button:hover img {
+  border: 1px solid aqua;
+  border-radius: 50%;
+  -webkit-animation: 0.5s linear 0s;
+  animation: 0.5s linear 0s;
+}
+.box-crypto-bot button:hover .text {
+  display: inline-block;
+  position: relative;
+  -webkit-animation: move 0.7s linear 0s alternate both;
+  animation: move 0.7s linear 0s alternate both;
+}
+@media (max-width: 480px) {
+  .box-crypto-bot,
+  .box-crypto-center,
+  .box-crypto-top {
+    flex-wrap: wrap;
+  }
+  .box-crypto-center .crypto-img,
+  .box-crypto-top .crypto-img {
+    width: 100%;
+    flex: unset;
+    margin-bottom: 10px;
+  }
+}
+
+.navigator-history-item.active {
+  background: rgba(0, 255, 255, 0.15);
+}
+.table-wallet table td,
+.table-wallet table th,
+.table-wallet table tr {
+  border: 0;
+  min-width: 100px;
+}
+.table-wallet table th {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #f0f0f0;
+  padding: 24px;
+  position: relative;
+  text-align: center !important;
+}
+.table-wallet table th:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  height: 16px;
+  content: "";
+  margin: auto;
+  background: aqua;
+}
+.table-wallet table tbody td,
+.table-wallet table tbody tr {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  color: #f0f0f0;
+}
+.table-wallet table tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 255, 255, 0.15);
+  border-radius: 1px;
+}
+.table-wallet table tbody tr:hover {
+  background-color: rgba(0, 255, 255, 0.05);
+  border-radius: 1px;
+  color: #f0f0f0;
+}
+.filter-history {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    rgba(53, 63, 72, 0.173);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  padding: 15px;
+  flex-wrap: wrap;
+}
+.filter-history .b-form-datepicker,
+.filter-history .form-control,
+.filter-history input,
+.filter-history select {
+  min-height: 40px !important;
+  min-width: 150px;
+  max-width: 300px;
+  margin: 15px 5px;
+}
+.filter-history #wallet-from-date,
+.filter-history #wallet-to-date {
+  color: #f0f0f0;
+}
+.filter-history .btn-action {
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border: 0;
+}
+.filter-history .btn-action img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.filter-history .btn-action:hover img {
+  width: 39px;
+  height: 39px;
+  padding: 1px;
+  border: 1px solid aqua;
+  border-radius: 50%;
+}
+.user {
+  position: relative;
+}
+.user .user-nav {
+  position: fixed;
+  width: 100%;
+  max-width: 300px;
+  z-index: 2;
+}
+
+.navigator-history {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.navigator-history-item {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    rgba(53, 63, 72, 0);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #f0f0f0;
+  width: 50%;
+  max-width: 237px;
+  height: 60px;
+  border: 0;
+  box-shadow: none;
+}

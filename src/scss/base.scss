@@ -2087,3 +2087,35 @@ textarea {
   letter-spacing: 0.75px;
   color: #f0f0f0;
 }
+
+.paginate {
+  display: flex;
+}
+.paginate button {
+  height: 40px;
+  width: 40px;
+  // background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOQAAAA7CAYAAABrPyZ3AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADjSURBVHgB7dexDcMwDABBOfAo2n8i7uIgKQPX8Rd3JfsHyWNmrgUknHfDvfexgL/6LMfXAjIECSGChJDvD+lnhAYbEkIECSGChBBBQoggIUSQECJICBEkhAgSQgQJIYKEEEFCiCAhRJAQIkgIESSECBJCBAkhgoQQQUKIICFEkBAiSAgRJIQIEkIECSGChBBBQoggIUSQECJICBEkhAgSQgQJIYKEEEFCiCAhRJAQIkgIESSECBJCBAkhgoQQQUKIICFEkBAiSAgRJIScC3jEzFy/MxsSQgQJIYKEkOPujgWe8QadQQ+hOcjR3gAAAABJRU5ErkJggg==);
+  // background-size: 100% 100%;
+  // background-repeat: no-repeat;
+  background-position: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 575px) {
+  .paginate button {
+    height: 35px;
+    width: 35px;
+  }
+}
+.paginate button.paginate-content {
+  width: 150px;
+  margin: 0 30px;
+}
+@media (max-width: 575px) {
+  .paginate button.paginate-content {
+    width: 130px;
+    font-size: 14px;
+    margin: 0 15px;
+  }
+}
