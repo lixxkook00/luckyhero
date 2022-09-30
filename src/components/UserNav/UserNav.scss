@@ -1,0 +1,106 @@
+.user .user-nav {
+  position: fixed;
+  width: 100%;
+  max-width: 300px;
+  z-index: 2;
+}
+@media (max-width: 1799px) {
+  .user .user-nav {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+}
+@media (max-width: 767px) {
+  .user .user-nav {
+    position: relative !important;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 414px) {
+  .user .user-nav {
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 20px;
+    justify-content: normal;
+    overflow-x: auto;
+  }
+}
+.user .user-nav a {
+  color: #f0f0f0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 55px;
+  padding-left: 30px;
+  margin: 30px 0;
+  transition: width 1s ease-in-out;
+}
+@media (max-width: 1799px) {
+  .user .user-nav a:hover {
+    width: 300px;
+    background: rgba(0, 255, 255, 0.184);
+    border-radius: 0 4px 4px 0;
+    border-left: 5px solid aqua;
+  }
+  .user .user-nav a:hover span {
+    text-overflow: clip;
+    display: block;
+    -webkit-animation: move 0.7s linear 0s alternate both;
+    animation: move 0.7s linear 0s alternate both;
+  }
+  .user .user-nav a:hover.active-children {
+    width: 300px !important;
+  }
+}
+@media (max-width: 991px) {
+  .user .user-nav a {
+    height: 45px;
+    margin: 15px 0;
+    padding-left: 15px;
+  }
+  .user .user-nav a:hover {
+    max-width: 220px;
+    padding-right: 10px;
+  }
+  .user .user-nav a:hover img {
+    margin-right: 15px;
+  }
+  .user .user-nav a:hover.active-children {
+    width: 220px !important;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .user .user-nav a:hover {
+    min-width: 220px;
+  }
+}
+.user .user-nav a.active-children {
+  background: rgba(0, 255, 255, 0.184);
+  border-radius: 0 4px 4px 0;
+  border-left: 5px solid aqua;
+  transition: width 1s ease-in-out;
+}
+@media (max-width: 1799px) {
+  .user .user-nav a.active-children {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+.user .user-nav a img {
+  height: 18px;
+  width: auto;
+  margin-right: 30px;
+}
+.user .user-nav a span {
+  word-break: keep-all;
+}
+@media (max-width: 1799px) {
+  .user .user-nav a span {
+    display: none;
+  }
+}

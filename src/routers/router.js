@@ -6,6 +6,7 @@ import Member from '../pages/Member';
 import PoolInformation from '../pages/PoolInformation';
 import SignUp from '../pages/SignUp';
 import Ticket from '../pages/Ticket';
+import UserVerification from '../pages/UserVerification';
 import Wallet from '../pages/Wallet';
 
 export default function Router() {
@@ -26,6 +27,8 @@ export default function Router() {
       <Route exact path="/login" element={<Login />} />
 
       <Route exact path="/signup" element={<SignUp />} />
+
+      <Route exact path="/user/verification" element={<UserVerification />} />
 
     </Routes>
   )
