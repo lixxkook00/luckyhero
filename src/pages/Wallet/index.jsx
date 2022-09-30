@@ -12,7 +12,7 @@ export default function Wallet() {
                 <div className="col-lg-6 col-12">
                     <div className="box-crypto mx-auto">
                     <div className="box-crypto-center border-0">
-                        <div className="crypto-img"><img src="./images/wallet.48409f44.svg" alt="" /><span> Your Balance</span></div>
+                        <div className="crypto-img"><img src="/images/wallet.48409f44.svg" alt="" /><span> Your Balance</span></div>
                         <div className="crypto-price"> 753.0857 </div>
                         <div className="crypto-symbol">HBG</div>
                     </div>
@@ -22,21 +22,21 @@ export default function Wallet() {
                         <div className="crypto-symbol">USD</div>
                     </div>
                     <div className="box-crypto-top">
-                        <div className="crypto-img"><img src="./images/logo.072d07f3.svg" alt="" /><span>Rate</span></div>
+                        <div className="crypto-img"><img src="/images/logo.072d07f3.svg" alt="" /><span>Rate</span></div>
                         <div className="crypto-rate"> 0.0549 </div>
                         <div className="crypto-symbol">HBG/USD</div>
                     </div>
                     <div className="box-crypto-bot">
                         <button type="button" className="btn btn-secondary">
-                            <img src="./images/deposit.c98463a5.svg" alt="" />
+                            <img src="/images/deposit.c98463a5.svg" alt="" />
                             <div className="text">Deposit</div>
                         </button>
                         <button type="button" className="btn btn-secondary">
-                            <img src="./images/transfer.ca466abd.svg" alt="" />
+                            <img src="/images/transfer.ca466abd.svg" alt="" />
                             <div className="text">Transfer</div>
                         </button>
                         <button type="button" className="btn btn-secondary">
-                            <img src="./images/withdraw.4b5f0df3.svg" alt="" />
+                            <img src="/images/withdraw.4b5f0df3.svg" alt="" />
                             <div className="text">Withdraw</div>
                         </button>
                         
@@ -47,7 +47,7 @@ export default function Wallet() {
                     <div className="box-crypto mx-auto">
                     <div className="box-crypto-center border-0">
                         <div className="crypto-img">
-                            <img src="./images/wallet.48409f44.svg" alt="" /><span> Your Balance</span></div>
+                            <img src="/images/wallet.48409f44.svg" alt="" /><span> Your Balance</span></div>
                         <div className="crypto-price"> 0 </div>
                         <div className="crypto-symbol">USDT</div>
                     </div>
@@ -57,21 +57,21 @@ export default function Wallet() {
                         <div className="crypto-symbol">USD</div>
                     </div>
                     <div className="box-crypto-top">
-                        <div className="crypto-img"><img src="./images/logo.072d07f3.svg" alt="" /><span>Rate</span></div>
+                        <div className="crypto-img"><img src="/images/logo.072d07f3.svg" alt="" /><span>Rate</span></div>
                         <div className="crypto-rate"> 1 </div>
                         <div className="crypto-symbol">USDT/USD</div>
                     </div>
                     <div className="box-crypto-bot">
                         <button type="button" className="btn btn-secondary">
-                            <img src="./images/deposit.c98463a5.svg" alt="" />
+                            <img src="/images/deposit.c98463a5.svg" alt="" />
                             <div className="text">Deposit</div>
                         </button>
                         <button type="button" className="btn btn-secondary">
-                            <img src="./images/transfer.ca466abd.svg" alt="" />
+                            <img src="/images/transfer.ca466abd.svg" alt="" />
                             <div className="text">Transfer</div>
                         </button>
                         <button type="button" className="btn btn-secondary">
-                            <img src="./images/withdraw.4b5f0df3.svg" alt="" />
+                            <img src="/images/withdraw.4b5f0df3.svg" alt="" />
                             <div className="text">Withdraw</div>
                         </button>
                         

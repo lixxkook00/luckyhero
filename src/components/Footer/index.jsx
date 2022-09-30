@@ -8,7 +8,7 @@ export default function Footer() {
         <div class="row">
             <div class="col-sm-6 col-lg-3 col-xl-2 col-12">
                 <div class="box-footer">
-                <img src="./images/logo.072d07f3.svg" alt="" />
+                <img src="/images/logo.072d07f3.svg" alt="" />
                 <h3 class="copyright-footer"> © 2022 LUCKY HERO. Terms &amp; Conditions. </h3>
                 </div>
             </div>
@@ -51,22 +51,22 @@ export default function Footer() {
                 </a>
                 <div class="social-list">
                         <a href="https://twitter.com/HeroBookGlobal" target="_blank" rel="noopener noreferrer" aria-label="Social Content">
-                            <img src="./images/tw.ca7bbf81.svg" alt="" />
+                            <img src="/images/tw.ca7bbf81.svg" alt="" />
                         </a>
                         <a href="https://www.facebook.com/herobookglobal" target="_blank" rel="noopener noreferrer" aria-label="Social Content">
-                            <img src="./images/fb.0c08b549.svg" alt="" />
+                            <img src="/images/fb.0c08b549.svg" alt="" />
                         </a>
                         <a href="https://t.me/herobook_chat" target="_blank" rel="noopener noreferrer" aria-label="Social Content">
-                            <img src="./images/tl.85a142c3.svg" alt="" />
+                            <img src="/images/tl.85a142c3.svg" alt="" />
                         </a>
                         <a href="https://t.me/herobook_ann" target="_blank" rel="noopener noreferrer" aria-label="Social Content">
-                            <img src="./images/tl.85a142c3.svg" alt="" />
+                            <img src="/images/tl.85a142c3.svg" alt="" />
                         </a>
                         <a href="https://www.tiktok.com/@herobookglobal" target="_blank" rel="noopener noreferrer" aria-label="Social Content">
-                            <img src="./images/tt.bdd4887c.svg" alt="" />
+                            <img src="/images/tt.bdd4887c.svg" alt="" />
                         </a>
                         <a href="https://www.youtube.com/channel/UCKxpBy7RW2KR-aUQQ04v-WA" target="_blank" rel="noopener noreferrer" aria-label="Social Content">
-                            <img src="./images/yt.bc759620.svg" alt="" />
+                            <img src="/images/yt.bc759620.svg" alt="" />
                         </a>
                     </div>
                 </div>

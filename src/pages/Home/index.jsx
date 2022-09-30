@@ -36,7 +36,7 @@ export default function Home() {
                 <div className="col-lg-6 col-12">
                   <div className="image__content">
                       <div className="image__content__hero">
-                        <img src="./images/pool.03cd35c2.png" alt="" />
+                        <img src="/images/pool.03cd35c2.png" alt="" />
                       </div>
                   </div>
                 </div>
@@ -49,7 +49,7 @@ export default function Home() {
                 <div className="section1-box-title">
                   <div className="section1-box-title-img d-flex justify-content-center">
                       <div className="col-lg-8 col-12">
-                        <img src="./images/LUCKYHERO.846847cd.png" alt="" />
+                        <img src="/images/LUCKYHERO.846847cd.png" alt="" />
                       </div>
                   </div>
                   <h3 className="section1-box-title-text"><span className="section1-mobile-number">01. </span> Herobook Ecosystem not only GameFi </h3>
@@ -274,11 +274,11 @@ export default function Home() {
                   </div>
                   <div className="section3-content-boxes col-lg-3 py-0">
                       <div className="d-flex flex-lg-column justify-content-center flex-wrap">
-                        <div className="d-flex box-item"><img src="./images/box1.a8650ba8.png" alt="" /></div>
-                        <div className="d-flex box-item"><img src="./images/box2.cfb17258.png" alt="" /></div>
-                        <div className="d-flex box-item"><img src="./images/box3.882e5236.png" alt="" /></div>
-                        <div className="d-flex box-item"><img src="./images/box4.372c4337.png" alt="" /></div>
-                        <div className="d-flex box-item"><img src="./images/box5.e45c7071.png" alt="" /></div>
+                        <div className="d-flex box-item"><img src="/images/box1.a8650ba8.png" alt="" /></div>
+                        <div className="d-flex box-item"><img src="/images/box2.cfb17258.png" alt="" /></div>
+                        <div className="d-flex box-item"><img src="/images/box3.882e5236.png" alt="" /></div>
+                        <div className="d-flex box-item"><img src="/images/box4.372c4337.png" alt="" /></div>
+                        <div className="d-flex box-item"><img src="/images/box5.e45c7071.png" alt="" /></div>
                       </div>
                   </div>
                 </div>
@@ -298,22 +298,22 @@ export default function Home() {
             <div className="section4-content mt-5">
                 <div className="d-flex flex-wrap">
                   <div className="col-lg-3 col-md-6 col-12 d-flex flex-column align-items-center p-3">
-                      <img src="./images/cX78AR3nq3QlLLAlAAAAAElFTkSuQmCC.png" alt="" />
+                      <img src="/images/cX78AR3nq3QlLLAlAAAAAElFTkSuQmCC.png" alt="" />
                       <div className="section4-content-line"></div>
                       <span className="section4-content-text">The HBG token is issued with the goal of becoming a universal payment token.</span>
                   </div>
                   <div className="col-lg-3 col-md-6 col-12 d-flex flex-column align-items-center p-3">
-                      <img src="./images/gNmkRz5Bs9VeQAAAABJRU5ErkJggg__.png" alt="" />
+                      <img src="/images/gNmkRz5Bs9VeQAAAABJRU5ErkJggg__.png" alt="" />
                       <div className="section4-content-line"></div>
                       <span className="section4-content-text">Link with other ecosystems such as: gamble, travel, service,... to expand the liquidity of HBG token.</span>
                   </div>
                   <div className="col-lg-3 col-md-6 col-12 d-flex flex-column align-items-center p-3">
-                      <img src="./images/w7wAAAABJRU5ErkJggg__.png" alt="" />
+                      <img src="/images/w7wAAAABJRU5ErkJggg__.png" alt="" />
                       <div className="section4-content-line"></div>
                       <span className="section4-content-text">HBG will become the foundation token for projects and will be widely used by users in daily life.</span>
                   </div>
                   <div className="col-lg-3 col-md-6 col-12 d-flex flex-column align-items-center p-3">
-                      <img src="./images/gPcsi_nMTGcAAAAASUVORK5CYII_.png" alt="" />
+                      <img src="/images/gPcsi_nMTGcAAAAASUVORK5CYII_.png" alt="" />
                       <div className="section4-content-line"></div>
                       <span className="section4-content-text">Some GameFi projects associated with HBG such as Dpoker, 123betnow, ESB FX,...</span>
                   </div>
@@ -334,25 +334,25 @@ export default function Home() {
             <div className="section5-content mt-5 px-5">
                 <div className="d-flex flex-wrap">
                   <div className="section5-content-item col-md-6 col-12 d-flex align-items-center justify-content-center justify-content-lg-start p-3 py-4">
-                      <img src="./images/hero1.acfb431c.png" alt="" />
+                      <img src="/images/hero1.acfb431c.png" alt="" />
                       <span className="section5-content-text py-3">
                       <span className="m-0"><span>Hero Common </span>is added 1 claim after 20 days.</span>
                       </span>
                   </div>
                   <div className="section5-content-item col-md-6 col-12 d-flex align-items-center justify-content-center justify-content-lg-start p-3 py-4">
-                      <img src="./images/hero2.31a564e8.png" alt="" />
+                      <img src="/images/hero2.31a564e8.png" alt="" />
                       <span className="section5-content-text py-3">
                       <span className="m-0"><span>Hero Rare </span>gets 1 additional claim after 15 days..</span>
                       </span>
                   </div>
                   <div className="section5-content-item col-md-6 col-12 d-flex align-items-center justify-content-center justify-content-lg-start p-3 py-4">
-                      <img src="./images/hero3.16e0f23b.png" alt="" />
+                      <img src="/images/hero3.16e0f23b.png" alt="" />
                       <span className="section5-content-text py-3">
                       <span className="m-0"><span>Hero Epic </span>gets 1 more claim after 10 days.</span>
                       </span>
                   </div>
                   <div className="section5-content-item col-md-6 col-12 d-flex align-items-center justify-content-center justify-content-lg-start p-3 py-4">
-                      <img src="./images/hero4.b6478757.png" alt="" />
+                      <img src="/images/hero4.b6478757.png" alt="" />
                       <span className="section5-content-text py-3">
                       <span className="m-0"><span>Hero Legend </span>gets 1 more claim after 5 days.</span>
                       </span>

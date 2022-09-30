@@ -44,7 +44,7 @@ export default function Member() {
             <div className="item-text">
                 <input type="text" aria-label="member-ref" />
                 <button type="button" className="btn text btn-secondary">
-                    <img src="./images/5_KPnlXvsBUfEcL2b4a_AnJunaJpQEF5EH_DPcglVhtWeW5pEFgXpmxysbERvvyZuL4xL457i7zEt0OXezaNShvOHMOvaZhCP6uJ.png" alt="" />
+                    <img src="/images/5_KPnlXvsBUfEcL2b4a_AnJunaJpQEF5EH_DPcglVhtWeW5pEFgXpmxysbERvvyZuL4xL457i7zEt0OXezaNShvOHMOvaZhCP6uJ.png" alt="" />
                 </button>
             </div>
          </div>
@@ -61,7 +61,7 @@ export default function Member() {
                     <div className="theme-button-content h-100 d-flex align-items-center justify-content-center"> Search </div>
                 </button>
                 <button type="button" className="btn btn-refresh mx-2 btn-secondary">
-                    <img src="./images/refresh.ac2a8bda.svg" alt="" />
+                    <img src="/images/refresh.ac2a8bda.svg" alt="" />
 
                 </button>   
             </div>
