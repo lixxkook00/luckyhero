@@ -4,6 +4,7 @@ import Home from '../pages/Home';
 import Login from '../pages/Login';
 import Member from '../pages/Member';
 import PoolInformation from '../pages/PoolInformation';
+import SignUp from '../pages/SignUp';
 import Ticket from '../pages/Ticket';
 import Wallet from '../pages/Wallet';
 
@@ -23,6 +24,8 @@ export default function Router() {
       <Route exact path="/ticket" element={<Ticket />} />
 
       <Route exact path="/login" element={<Login />} />
+
+      <Route exact path="/signup" element={<SignUp />} />
 
     </Routes>
   )

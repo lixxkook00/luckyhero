@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Login.scss'
 
 export default function Login() {
@@ -9,7 +10,12 @@ export default function Login() {
          <div class="box-auth d-flex justify-content-center align-item-center">
             <div class="d-flex flex-column justify-content-center container">
                <div class="theme-title mb-cs">Sign In</div>
-               <a href="/auth/register" class="w-100 text-white text-left"> If you don't have account lucky pool. <span class="theme-normal-3 mx-1">Sign up now</span></a>
+
+               <Link to="/signup" class="w-100 text-white text-left"> 
+                    If you don't have account lucky pool. 
+                    <span class="theme-normal-3 mx-1">Sign up now</span>
+                </Link>
+               
                <form class="form-login">
                   <div class="form-group">
                      <h3 class="theme-normal-1">Email</h3>
