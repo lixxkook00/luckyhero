@@ -1,0 +1,645 @@
+#ticket {
+  color: #fff;
+}
+#ticket ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+#ticket ::-webkit-scrollbar {
+  width: 3px;
+  background-color: hsla(0, 0%, 96%, 0.239);
+}
+#ticket ::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+  background-color: rgba(0, 255, 255, 0.5);
+}
+#ticket .col-lg-8 {
+  padding-left: 0;
+}
+@media (min-width: 1199px) {
+  #ticket .col-lg-8 {
+    padding: 0;
+  }
+}
+@media (max-width: 992px) {
+  #ticket .col-lg-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+#ticket .ticket-table {
+  overflow-x: auto;
+}
+#ticket .ticket-table table {
+  width: 860px;
+  color: #f0f0f0;
+}
+#ticket .ticket-table table tr {
+  background: none;
+  border: none;
+}
+#ticket .ticket-table table tr td,
+#ticket .ticket-table table tr th {
+  border: none;
+  padding: 15px;
+}
+#ticket .ticket-table table tr img {
+  width: 250px;
+  height: auto;
+}
+#ticket .ticket-table table tr:nth-child(odd) {
+  background: rgba(0, 255, 255, 0.15) !important;
+}
+#ticket .ticket-table table thead tr:first-child {
+  background: none !important;
+  border-bottom: 0.5px solid aqua;
+}
+#ticket .ticket-table table thead tr:first-child th {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+#ticket .ticket-table table thead tr:first-child p {
+  margin-bottom: 0.5rem;
+  padding: 2px 0;
+}
+#ticket .ticket-table table thead tr:first-child .line {
+  border-left: 1px solid aqua;
+  border-right: 1px solid aqua;
+}
+#ticket
+  .ticket-table
+  table
+  thead
+  tr:first-child
+  th:first-child {
+  width: 60px;
+}
+#ticket .ticket-table table tbody {
+  display: block;
+  height: 475px;
+  overflow: auto;
+}
+#ticket .ticket-table table tbody tr,
+#ticket .ticket-table table thead {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+#ticket .ticket-table table tbody tr td:first-child,
+#ticket .ticket-table table thead td:first-child {
+  width: 60px;
+}
+#ticket .ticket-table table tbody.empty-table tr {
+  background: none !important;
+}
+#ticket
+  .ticket-table
+  table
+  .empty-table-box
+  .empty-table-content {
+  margin: 0 33%;
+}
+#ticket
+  .ticket-table
+  table
+  .empty-table-box
+  .empty-table-content
+  h5 {
+  text-align: center;
+  letter-spacing: 0.75px;
+  color: #dcdcdc;
+  padding-top: 30px;
+}
+@media (max-width: 992px) {
+  #ticket
+    .ticket-table
+    table
+    .empty-table-box
+    .empty-table-content {
+    margin: 0 25%;
+  }
+}
+@media (max-width: 768px) {
+  #ticket
+    .ticket-table
+    table
+    .empty-table-box
+    .empty-table-content {
+    margin: 0 20%;
+  }
+}
+@media (max-width: 576px) {
+  #ticket
+    .ticket-table
+    table
+    .empty-table-box
+    .empty-table-content {
+    margin: 0 10%;
+  }
+}
+@media (max-width: 480px) {
+  #ticket
+    .ticket-table
+    table
+    .empty-table-box
+    .empty-table-content {
+    margin: 0 5%;
+  }
+}
+#ticket .ticket-form .ticket-form-box {
+  border: 1px solid #888;
+  border-radius: 4px;
+  width: 100%;
+  padding: 30px;
+  max-width: 370px;
+}
+#ticket .ticket-form .ticket-form-box.box-2 {
+  padding: 30px 0 0;
+}
+#ticket .ticket-form .ticket-form-box img {
+  width: 22px;
+  height: auto;
+}
+#ticket .ticket-form .ticket-form-box .line {
+  width: 2px;
+  height: 25px;
+  background: aqua;
+  border-radius: 5px;
+  margin: 0 1.5rem;
+}
+#ticket .ticket-form .ticket-form-box p {
+  height: 25px;
+  line-height: 25px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #f0f0f0;
+  margin: 0;
+}
+#ticket .ticket-form .ticket-form-box .form-submit label {
+  margin: 0;
+  width: 100%;
+  font-weight: 500;
+}
+#ticket .ticket-form .ticket-form-box .form-submit label span {
+  color: #dcdcdc;
+}
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .form-submit
+  label
+  input {
+  background: none;
+  border: none;
+  color: #dcdcdc;
+  padding: 5px;
+  border-bottom: 0.5px solid #dcdcdc;
+  width: 100%;
+  color: aqua;
+}
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .form-submit
+  label
+  select {
+  background: none;
+  outline: none;
+  border: 0.5px solid #dcdcdc;
+  margin-top: 1rem;
+  padding: 0.5rem 15px;
+  border-radius: 4px;
+  color: aqua;
+}
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .form-submit
+  label
+  select
+  option {
+  color: #00112c;
+}
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .form-submit
+  label
+  select:hover {
+  cursor: pointer;
+}
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .form-submit
+  label
+  textarea {
+  background: none;
+  width: 100%;
+  margin-top: 1rem;
+  border: 0.5px solid #dcdcdc;
+  border-radius: 4px;
+  height: 94px;
+  outline: none;
+  box-shadow: none;
+  color: aqua;
+  padding: 0.5rem 5px;
+}
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .form-submit
+  > .d-flex
+  button {
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.75px;
+  background: none;
+  font-family: Hemi Head;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  border: 1px solid aqua;
+  height: 45px;
+  width: 170px;
+  margin-top: 1rem;
+  position: relative;
+  transition: 0.5s;
+}
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .form-submit
+  > .d-flex
+  button:hover {
+  background: aqua;
+}
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .form-submit
+  > .d-flex
+  button:hover
+  p {
+  color: #00112c !important;
+}
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .form-submit
+  > .d-flex
+  button
+  p {
+  color: aqua;
+}
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .form-submit
+  > .d-flex
+  button
+  .bottom-right-square-point,
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .form-submit
+  > .d-flex
+  button
+  .top-left-square-point {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: aqua;
+}
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .form-submit
+  > .d-flex
+  button
+  .top-left-square-point {
+  top: 0;
+  left: 0;
+}
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .form-submit
+  > .d-flex
+  button
+  .bottom-right-square-point {
+  bottom: 0;
+  right: 0;
+}
+#ticket .ticket-form .ticket-form-box .ticket-title {
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20px;
+}
+#ticket .ticket-form .ticket-form-box .ticket-title img {
+  width: 30px;
+}
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .ticket-title
+  .right-content {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-left: 1px solid aqua;
+  margin-left: 25px;
+}
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .ticket-title
+  .right-content
+  p {
+  padding-left: 25px;
+}
+#ticket
+  .ticket-form
+  .ticket-form-box
+  .ticket-title
+  .right-content
+  span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: aqua;
+  padding-left: 10px;
+}
+#ticket .ticket-form .ticket-form-box .list-chat {
+  margin-top: 15px;
+  max-height: 300px;
+  min-height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#ticket .ticket-form .ticket-form-box .list-chat-item {
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+#ticket .ticket-form .ticket-form-box .list-chat-item.user {
+  border: 1px solid aqua;
+  text-align: left;
+}
+#ticket .ticket-form .ticket-form-box .list-chat-item.admin {
+  border: 1px solid #dcdcdc;
+  text-align: right;
+}
+#ticket .ticket-form .ticket-form-box .list-chat-item-time {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #dcdcdc;
+}
+#ticket .ticket-form .ticket-form-box .list-chat-item-text {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #dcdcdc;
+}
+#ticket .ticket-form .ticket-form-box .chat-area {
+  position: relative;
+  background: hsla(0, 0%, 53%, 0.055);
+  padding: 15px;
+}
+#ticket .ticket-form .ticket-form-box .chat-area textarea {
+  width: 100%;
+  height: 146px;
+  background: transparent;
+  border: 1px solid aqua;
+  border-radius: 5px;
+  color: aqua;
+  padding: 5px;
+}
+#ticket .ticket-form .ticket-form-box .button-send {
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border: 0;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  z-index: 10;
+}
+#ticket .ticket-form .ticket-form-box .button-send img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+#ticket .ticket-form .ticket-form-box .button-send:hover img {
+  width: 39px;
+  height: 39px;
+  padding: 1px;
+  border: 1px solid aqua;
+  border-radius: 50%;
+}
+@media (max-width: 1200px) {
+  #ticket .px-4 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  #ticket .py-5 {
+    padding: 2rem !important;
+  }
+  #ticket .px-3 {
+    padding: 0 !important;
+  }
+}
+.e-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 70vh;
+  overflow-y: auto;
+}
+.error-container {
+  text-align: center;
+  font-size: 106px;
+  font-family: Catamaran, sans-serif;
+  font-weight: 600;
+  margin: 15px;
+}
+.error-container > span {
+  display: inline-block;
+  position: relative;
+}
+.error-container > span.four {
+  width: 136px;
+  height: 43px;
+  border-radius: 999px;
+  background: linear-gradient(
+      140deg,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.07) 43%,
+      transparent 44%,
+      transparent
+    ),
+    linear-gradient(
+      105deg,
+      transparent,
+      transparent 40%,
+      rgba(0, 0, 0, 0.06) 41%,
+      rgba(0, 0, 0, 0.07) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(90deg, #458802, #0ff);
+}
+.error-container > span.four:after,
+.error-container > span.four:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 999px;
+}
+.error-container > span.four:before {
+  width: 43px;
+  height: 156px;
+  left: 60px;
+  bottom: -43px;
+  background: linear-gradient(
+      128deg,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.07) 40%,
+      transparent 41%,
+      transparent
+    ),
+    linear-gradient(
+      116deg,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.07) 50%,
+      transparent 51%,
+      transparent
+    ),
+    linear-gradient(0deg, #009750, #fff, #0ff, #009750, #0ff);
+}
+.error-container > span.four:after {
+  width: 137px;
+  height: 43px;
+  transform: rotate(-49.5deg);
+  left: -18px;
+  bottom: 36px;
+  background: linear-gradient(90deg, #009750, #fff, #0ff, #009750, #0ff);
+}
+.error-container > span.zero {
+  vertical-align: text-top;
+  width: 156px;
+  height: 156px;
+  border-radius: 999px;
+  background: linear-gradient(
+      -45deg,
+      transparent,
+      rgba(0, 0, 0, 0.06) 50%,
+      transparent 51%,
+      transparent
+    ),
+    linear-gradient(
+      to top right,
+      #009750,
+      #009750,
+      #fff,
+      #0ff,
+      #009750,
+      #0ff,
+      #0ff
+    );
+  overflow: hidden;
+  -webkit-animation: bgshadow-cf0c7d7a 5s infinite;
+  animation: bgshadow-cf0c7d7a 5s infinite;
+}
+.error-container > span.zero:before {
+  content: "";
+  display: block;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 90px;
+  height: 90px;
+  background-color: transparent;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(
+      95deg,
+      transparent,
+      transparent 8%,
+      rgba(0, 0, 0, 0.07) 9%,
+      transparent 50%,
+      transparent
+    ),
+    linear-gradient(
+      85deg,
+      transparent,
+      transparent 19%,
+      rgba(0, 0, 0, 0.05) 20%,
+      rgba(0, 0, 0, 0.07) 91%,
+      transparent 92%,
+      transparent
+    );
+}
+.error-container > span.zero:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 999px;
+  width: 70px;
+  height: 70px;
+  left: 43px;
+  bottom: 43px;
+  background: #fdfaf5;
+  box-shadow: -2px 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+.screen-reader-text {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+@-webkit-keyframes bgshadow-cf0c7d7a {
+  0% {
+    box-shadow: inset -160px 160px 0 5px rgba(0, 0, 0, 0.4);
+  }
+  45% {
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.1);
+  }
+  55% {
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.1);
+  }
+  to {
+    box-shadow: inset 160px -160px 0 5px rgba(0, 0, 0, 0.4);
+  }
+}
+@keyframes bgshadow-cf0c7d7a {
+  0% {
+    box-shadow: inset -160px 160px 0 5px rgba(0, 0, 0, 0.4);
+  }
+  45% {
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.1);
+  }
+  55% {
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.1);
+  }
+  to {
+    box-shadow: inset 160px -160px 0 5px rgba(0, 0, 0, 0.4);
+  }
+}
