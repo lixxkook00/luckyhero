@@ -1,0 +1,101 @@
+.form-login,
+.form-login .button-submit-login {
+  margin-top: 35px;
+}
+.form-login .form-group {
+  margin-bottom: 35px;
+}
+.form-login .form-group h3 {
+  margin-bottom: 15px;
+}
+.form-login .form-group input {
+  margin-top: 0;
+}
+.form-login .form-group .password {
+  position: relative;
+}
+.form-login .form-group .password button {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  padding: 0;
+  width: 20px;
+  background: transparent !important;
+  border: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.form-login .form-group .password button img {
+  cursor: pointer;
+}
+@media (max-width: 575px) {
+  .form-login .form-group .password button img {
+    width: 20px;
+    height: auto;
+  }
+}
+.form-register {
+  margin-top: 0;
+}
+.form-register .button-submit-register {
+  margin-top: 50px;
+}
+.form-register .form-group {
+  margin-bottom: 50px;
+}
+.form-register .form-group h3 {
+  margin-bottom: 15px;
+}
+.form-register .form-group input {
+  margin-top: 0;
+}
+@media (max-width: 575px) {
+  .title-forgot {
+    font-size: 35px;
+  }
+}
+@media (max-width: 375px) {
+  .title-forgot {
+    font-size: 30px;
+  }
+}
+
+.action-page {
+  margin-bottom: 30px;
+}
+.form-forgot {
+  margin-top: 50px;
+}
+.form-forgot a {
+  color: #f0f0f0;
+}
+.form-forgot .button-submit-forgot {
+  margin-top: 15px;
+}
+.form-forgot .form-group {
+  margin-bottom: 40px;
+}
+.form-forgot .form-group h3 {
+  margin-bottom: 15px;
+}
+.form-forgot .form-group input {
+  margin-top: 0;
+}
+.box-crypto {
+  -webkit-backdrop-filter: blur(17px);
+  backdrop-filter: blur(17px);
+  border-radius: 2px;
+  background: radial-gradient(
+      89.22% 239.7% at 93.58% 13.91%,
+      hsla(0, 0%, 100%, 0.1) 0,
+      hsla(0, 0%, 100%, 0.01) 100%
+    );
+  max-width: 100%;
+  min-height: 250px;
+  background-size: 100% 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
+}

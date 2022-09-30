@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route,Routes} from 'react-router-dom';
 import Home from '../pages/Home';
+import Login from '../pages/Login';
 import Member from '../pages/Member';
 import PoolInformation from '../pages/PoolInformation';
 import Ticket from '../pages/Ticket';
@@ -20,6 +21,8 @@ export default function Router() {
       <Route path="/pool/information" element={<PoolInformation />} />
 
       <Route exact path="/ticket" element={<Ticket />} />
+
+      <Route exact path="/login" element={<Login />} />
 
     </Routes>
   )
